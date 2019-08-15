@@ -1,0 +1,56 @@
+{
+    "creatureMap": [
+      {
+        "id": 1,
+        "job": {
+          "fighter": {
+            "key": "Fighter",
+            "jobName": "戰士"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "race": {
+          "key": "People",
+          "name": "人類"
+        },
+        "job": {
+          "fighter": {
+            "key": "KindFighter",
+            "jobName": "聖戰士"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "race": {
+          "key": "Monster",
+          "name": "獸人"
+        },
+        "job": {
+          "fighter": {
+            "key": "CruelFighter",
+            "jobName": "狂戰士"
+          }
+        }
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "jack",
+        "sex": 1,
+        "exp": 290,
+        "life": 150,
+        "race": 1
+      }
+    ],
+    "messages":[
+      {
+        "id":1,
+        "content":"TestGo",
+        "userId":1
+      }
+    ]
+  }
